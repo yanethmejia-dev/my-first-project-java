@@ -5,8 +5,15 @@ public class Condicionales {
     public static void main(String[] args) {
         if (numero1 > numero2) {
             System.out.println(numero1 + " es mayor que " + numero2);
-        }else{
+        } else {
             System.out.println(numero2 + " es mayor que " + numero1);
+        }
+
+        // Condicional para verificar número par
+        if (numero1 % 2 == 0) {
+            System.out.println(numero1 + " es par.");
+        }else{
+            System.out.println(numero1 + " es impar.");
         }
     }
 }
